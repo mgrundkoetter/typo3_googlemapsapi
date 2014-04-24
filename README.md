@@ -4,6 +4,17 @@ TYPO3 extension Google Maps API
 A TYPO3 extension that adds a litte PHP wrapper to the geocoding part of the Google Maps API.
 Additionally, there is a [TYPO3 formhandler](http://www.typo3-formhandler.com/documentation/interceptors/) interceptor included, that can convert an address string into lat/lng values.
 
+Installation
+------------
+
+You may use [composer](https://getcomposer.org/) or just use this as a [GIT submodule](http://git-scm.com/book/en/Git-Tools-Submodules). The configuration looks like this:
+
+```
+[submodule "typo3conf/ext/googlemapsapi"]
+	path = typo3conf/ext/googlemapsapi
+	url = https://github.com/ujamii/typo3_googlemapsapi.git
+```
+
 Why is this extension not in the TER?
 -------------------------------------
 
