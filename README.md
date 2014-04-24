@@ -15,7 +15,7 @@ So please feel also free to fork this extension and send pull requests if you fe
 
 ```php
 $service = new AddressInformationRequestService();
-$response = $service->getInformationFor(“Frankfurter Straße 4, 01159 Dresden”);
+$response = $service->getInformationFor("Frankfurter Straße 4, 01159 Dresden");
 
 if ($response->getResponseCode() == AddressInformationResponse::STATUS_SUCCESS) {
   if ($response->getResultCount() > 0) {
